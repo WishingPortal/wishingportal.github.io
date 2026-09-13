@@ -26,8 +26,8 @@
 <main>
   <a class="brand" href="/">Kite TV · Wishing Portal</a>
   <h1>Privacy policy</h1>
-  <p class="date">Last updated: 11 September 2026</p>
-  <p class="intro">Kite TV is a player for content sources you choose. The current app has no account registration, advertising or third-party usage analytics. Your saved sources and viewing preferences are not uploaded to a Kite TV backend.</p>
+  <p class="date">Last updated: 13 September 2026</p>
+  <p class="intro">Kite TV is a player for content sources you choose. The app has no account registration or advertising. It uses technical diagnostics and, with your consent, optional analytics as described below. Your saved sources and viewing preferences are not uploaded to a Kite TV backend.</p>
 
   <h2>Who we are</h2>
   <p>Kite TV (Android package <code>com.wishingportal.tvplayer</code>) is provided by Wishing Portal Ltd. For privacy questions or requests, email <a href="mailto:contact@wishingportal.com">contact@wishingportal.com</a>.</p>
@@ -39,7 +39,17 @@
     <li>Cached playlists, channel information and programme guide data from your sources.</li>
     <li>Favourites, selected sources and channels, playback choices and app preferences.</li>
   </ul>
-  <p>The app also processes playback and connection information to play media and display local troubleshooting details. It does not automatically send these details to us or to an analytics service.</p>
+  <p>The app also processes playback and connection information to play media and display local troubleshooting details. Limited diagnostic and optional analytics reports are described below.</p>
+
+  <h2>Diagnostics and optional analytics</h2>
+  <p>Kite TV uses Google's Firebase services to find problems and improve the app:</p>
+  <ul>
+    <li><strong>Technical diagnostics — always on.</strong> Firebase Crashlytics receives app and Android versions, device type, manufacturer/model, installation identifiers and sanitized error reports to help us find crashes and compatibility problems.</li>
+    <li><strong>Usage analytics — optional.</strong> With your consent, Google Analytics for Firebase collects sessions, onboarding and playback outcomes, app/device details, language, an installation identifier and approximate location to help us understand where people get stuck and improve the experience.</li>
+    <li><strong>IPTV setup insights — optional.</strong> With your additional choice, we report your setup type (currently M3U), linked to the Analytics installation identifier, to improve setup. This requires usage analytics because Firebase also records sessions. No IPTV URLs or account credentials are included.</li>
+  </ul>
+  <p>We do not attach IPTV URLs, credentials, playlist or guide contents, searches, channel names, names, email addresses or payment details to these reports. Reports use random installation identifiers and are not fully anonymous. Google processes these reports through Firebase; see <a href="https://firebase.google.com/support/privacy">Firebase's privacy information</a>.</p>
+  <p>You can choose optional analytics through More options when prompted and change your choices in Settings → Privacy choices. Technical diagnostics stays on regardless of these choices. Optional analytics relies on your consent (GDPR Article 6(1)(a)). Withdrawing consent stops future optional collection; it does not automatically delete historical reports. For questions or requests about reports already collected, contact us using the email above.</p>
 
   <h2>Connections to other services</h2>
   <p>When you load or refresh a source, fetch guide information or images, or play a stream, your device connects to the relevant servers. These include servers referenced by your chosen sources and any servers to which they redirect requests. They receive your IP address, the requested address, ordinary connection information and any authentication information required by the request.</p>
@@ -51,7 +61,7 @@
 
   <h2>Retention and deletion</h2>
   <p>Saved settings remain until you change or remove them, or clear the app's data. You can edit or remove saved sources in the app. Cached information may remain until replaced or cleared. To remove all local Kite TV data, use Android's Settings → Apps → Kite TV → Storage → Clear data; the exact labels vary by device. Uninstalling also removes the app's local data.</p>
-  <p>Clearing local data does not necessarily delete operating-system backups or records held by your chosen source services. Manage backups through your device or backup provider, and contact source services directly about their records.</p>
+  <p>Clearing local data does not automatically delete diagnostic or analytics reports already received by Google, and does not necessarily delete operating-system backups or records held by your chosen source services. Manage backups through your device or backup provider, and contact source services directly about their records.</p>
 
   <h2>Contacting us</h2>
   <p>If you email us, we receive your email address, message and any information you choose to include. We use this information to respond and resolve your request. Our email provider processes correspondence to deliver this service. We retain correspondence only as needed to handle the request and meet applicable legal obligations. Please do not send passwords, access tokens or private source addresses.</p>
